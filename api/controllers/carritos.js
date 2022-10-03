@@ -78,6 +78,7 @@ const deleteProductoById = async (id, usuario, idproducto) => {
     return dataFiltrada;
 }
 
+
 // Metodo updateById
 const updateById = async (id, productNew)=> {
     if (fs.existsSync(path.resolve(__dirname, `${filename}`))){
